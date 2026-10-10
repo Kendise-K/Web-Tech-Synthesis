@@ -288,3 +288,133 @@ footer {
         font-size: 19px;
     }
 }
+
+.instructions {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #ded8f5;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.instructions .welcome {
+    display: inline-block;
+    background-color: #eee9ff;
+    color: #51458c;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.instructions h1 {
+    margin-top: 15px;
+}
+
+.instructions .intro {
+    text-align: center;
+    color: #716b8c;
+    margin-bottom: 30px;
+}
+
+.instructions h2 {
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.instructions ul {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.instructions li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.instructions .topics {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.instructions .topics span {
+    display: inline-block;
+    background-color: #eee9ff;
+    color: #51458c;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.instructions .note {
+    background-color: #f6f4fc;
+    color: #51458c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .instructions {
+        margin: 20px auto;
+        padding: 22px 18px;
+    }
+}
+
+
+.about {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #ded8f5;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.about .welcome {
+    display: inline-block;
+    background-color: #eee9ff;
+    color: #51458c;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.about h1 {
+    margin-top: 15px;
+}
+
+.about h2,
+.about h3 {
+    color: #51458c;
+}
+
+.about section {
+    background-color: #faf9ff;
+    border: 1px solid #ded8f5;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+
+.about .note {
+    background-color: #f6f4fc;
+    color: #51458c;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .about {
+        margin: 20px auto;
+        padding: 22px 18px;
+    }
+}
