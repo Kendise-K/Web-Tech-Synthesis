@@ -26,7 +26,7 @@ if (quizForm) {
             }
         }
 
-        window.location.href = "results.html?name=" + name + "&score=" + score;
+        window.location.href = "results.html?name=" + encodeURIComponent(name) + "&score=" + score;
     });
 }
 
@@ -41,7 +41,7 @@ if (resultName) {
         const part = details[i].split("=");
 
         if (part[0] === "name") {
-            name = part[1].replace(/\+/g, " ");
+            name = decodeURIComponent(part[1].replace(/\+/g, " "));
         }
 
         if (part[0] === "score") {
