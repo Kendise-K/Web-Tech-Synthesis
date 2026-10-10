@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #263238;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #244a73;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #d6e0ea;
+}
+
+h1 {
+    color: #244a73;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+h2 {
+    color: #244a73;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+fieldset {
+    border: 1px solid #cbd8e6;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: #f8fafc;
+}
+
+legend {
+    font-weight: bold;
+    color: #244a73;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #b8c7d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #244a73;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #183653;
+}
+
+footer {
+    text-align: center;
+    color: #607080;
+    margin-top: 25px;
+}
